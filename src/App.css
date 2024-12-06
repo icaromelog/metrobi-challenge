@@ -1,0 +1,78 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.nav-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 0;
+  border-bottom: 1px solid rgba(0, 0, 0, .2);
+  margin-bottom: 1.5em;
+}
+
+.logo {
+  color: #722AC2;
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
+.logo span {
+  font-weight: normal;
+}
+
+.nav a {
+  margin-left: 1rem;
+  text-decoration: none;
+  color: #646cff;
+  font-weight: 500;
+}
+
+.nav a:hover {
+  color: #535bf2;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+}
+
+.card {
+  width: 100%;
+  padding: 20px;
+  margin: .5em 0;
+  background-color: #f9f9f9;
+  box-shadow: 0 6px 15px rgba(36, 37, 38, 0.08);
+  border-radius: 10px;
+  transform: translateY(0) scale(1);
+  opacity: 1;
+  transition: box-shadow 0.25s, transform 0.25s, transform 0.5s cubic-bezier(0.6, 0.2, 0.1, 1) 0s, opacity 0.5s cubic-bezier(0.6, 0.2, 0.1, 1) 0s;
+}
+
+.card:hover {
+  box-shadow: 5px 12px 20px rgba(36, 37, 38, 0.13);
+}
+
+.card h1 {
+  font-size: 1.5em;
+  margin-bottom: 8px;
+}
+
+.card pre {
+  background-color: #f4f4f4;
+  padding: 8px;
+  border-radius: 4px;
+  overflow-x: auto;
+}
+
+button {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: .8em;
+  padding: 1em 1.5em;
+}
